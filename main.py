@@ -21,7 +21,7 @@ def run_web_server():
 threading.Thread(target=run_web_server, daemon=True).start()
 
 TELEGRAM_BOT_TOKEN = '8828858819:AAEV--N52xYk4_ycHbNwBDnemvIRgHy8PzI'
-ELEVENLABS_API_KEY = 'sk_3885be7f2510a94e8c20085aedc77012480588344fdafcc7'
+ELEVENLABS_API_KEY = 'sk_48e689d9519318fc953b82cfd7598603bd85f3900e98019c'
 VOICE_ID = 'dmEkARJxJEqd5ADSYy8D'
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
